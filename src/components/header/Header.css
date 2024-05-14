@@ -1,0 +1,105 @@
+ul, li, p, a{
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: arial;
+    color: white;
+    text-decoration: none;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  color: white;
+  padding: 5px;
+  background-color: rgb(116, 30, 198);
+  margin-bottom: 10px;
+}
+
+.container {
+    display: flex;    
+    align-items: center;
+    justify-content: space-between;    
+    width: 80%;
+}
+
+.link{
+  padding: 5px;
+  /*width: 10px; /* ajuste a largura conforme necessário */
+  /*height: auto; /* mantém a proporção da imagem */    
+}
+
+.link:active {
+  background-color: rgba(151, 84, 213, 0.4);
+
+  animation: click-wave 0.4s ease-out;
+}
+
+.LogoImage {
+  margin: 0 auto;
+  width: 50px; /* ajuste a largura conforme necessário */
+  height: auto; /* mantém a proporção da imagem */
+  /*display: block; /* para remover qualquer espaço extra abaixo da imagem */
+  border-radius: 10px;
+
+}
+
+.menu-hamburguer, .menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+} 
+ .menu-hamburguer div, .menu button {
+  margin: 5px;
+  background-color: rgb(116, 30, 198);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.botao {
+
+    /* background-color: rgb(116, 30, 198); */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    padding: 15px;
+    border-radius: 4px;
+    border-width: 0;
+    color: white;
+    margin-left: 10px;
+}
+
+.botao:hover {
+  background-color: rgba(151, 84, 213, 0.4);
+  transition: background-color 0.4s;
+}
+
+.botao:active {
+  background-color: rgba(151, 84, 213, 0.4);
+
+  /* animation: click-wave 0.4s ease-out;
+  animation: click-wave 0.4s ease-out; */
+
+}
+
+
+
+
+
+  /* Estilo para o menu hambúrguer */
+  /* .menu-hamburguer div {
+    border-radius: 5px;
+  } */
+
+
+
+
+
+/* .link:hover {
+    background-color: rgba(151, 84, 213, 0.4);
+} */
+

@@ -1,0 +1,32 @@
+.body-section{    
+    display: block;
+    align-items: center;
+    justify-content:center;
+    color: black;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #dadde3; 
+
+}
+
+.containerBody{
+    display: block;    
+    align-items: center;
+    justify-content: center;
+    min-width: 70%;
+    max-width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.body-section > .titulo1 {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 8px;
+
+}
+

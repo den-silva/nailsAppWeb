@@ -1,13 +1,34 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import Header from './components/header/Header'
+import Body from './components/body/Body'
+
 
 function App() {
   return (
+    <>
+      <Header/>
+      <Body/>
+    </>
+
+
+  );
+}
+
+export default App;
+
+
+
+
+
+
+    /* COMPONENTE PADRÃO DO REACT
+    
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/App.js</code> salve para recarregar.
         </p>
         <a
           className="App-link"
@@ -18,8 +39,4 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
-  );
-}
-
-export default App;
+    </div>*/
