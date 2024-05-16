@@ -71,6 +71,7 @@ ul, li, p, a{
     border-width: 0;
     color: white;
     margin-left: 10px;
+    max-width: 60px;
 }
 
 .botao:hover {
